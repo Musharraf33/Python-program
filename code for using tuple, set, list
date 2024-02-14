@@ -1,0 +1,19 @@
+print("this is the info of student :")
+def Name():
+    
+    name=input("Enetr uour name : ")
+    L=[name]
+    #print(type(L))
+    print(L)
+def Collegeid():
+    college=input("Enter your college id :")
+    tup={college}
+    print(tup)
+def phone():
+    no=input("Enter you comntact no :")
+    S={no}
+    print(S)
+    
+obj=Name()
+obj1=Collegeid()
+obj2=phone()
